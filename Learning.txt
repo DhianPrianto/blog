@@ -1,0 +1,10 @@
+//membuat controller menggunakan artisan
+    1. pergi ke terminal
+    2. klik php artisan make:controller PagesController
+    3. Enter.
+
+//migration (create tabel database)
+    ~php artisan migrate
+
+//Membuat controller + Model
+    ~ php artisan make:controller StudentsController -r -m Students
